@@ -1,0 +1,32 @@
+.social-title {
+    @extend %footer-titles;
+}
+
+.socials-list {
+    @extend %socials-list;
+}
+
+.footer .socials-list {
+    padding: 0;
+}
+
+.social-item {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.footer .social-link {
+    color: $primary-text-darkbackground-color;
+    background-color: $footer-icons-background-color;
+    
+    transition: background-color $time-period $timing-function;
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+    }
+
