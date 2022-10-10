@@ -1,0 +1,19 @@
+
+@import "./utils/vars";
+@import "./base/defaults";
+@import "./base/common";
+@import "./utils/placeholders";
+
+@import "./components/header/header-common";
+@import "./components/header/site-nav";
+@import "./components/header/header-contacts";
+
+@import "./components/page-portfolio/portfolio-common";
+@import "./components/page-portfolio/filtr-list";
+@import "./components/page-portfolio/project-list";
+
+@import "./components/footer/footer-common";
+@import "./components/footer/company-info";
+@import "./components/footer/socials";
+@import "./components/footer/footer-form";
+

@@ -11,7 +11,7 @@
 .team-card {
     background-color: $primary-background-color;
     margin-right: 30px;
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc(1200px / 4 - 30px);
     box-shadow: $team-card-shadow-color;
 
     &:last-child {
@@ -42,8 +42,4 @@
 
 .socials-list {
     @extend %socials-list;
-}
-
-.social-icon {
-    fill: currentColor;
 }
