@@ -7,12 +7,21 @@
     margin-left: auto;
   }
   
-  %socials-list {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
+%logo {
+  display: inline-block;
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
+//   %socials-list {
+//     display: inline-flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 10px;
+//     width: 206px;
+// }
 
 %footer-titles {
   color: $primary-text-darkbackground-color;
